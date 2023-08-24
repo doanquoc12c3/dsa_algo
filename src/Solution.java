@@ -23,5 +23,11 @@ class Solution {
                 j--; //updating pointer for further comparisons
             }
         }
+        System.out.println("Sorted Array:");
+        for (int l = 0; l < nums1.length; l++) {
+            System.out.print(l+" ");
+        }
     }
+
+
 }
